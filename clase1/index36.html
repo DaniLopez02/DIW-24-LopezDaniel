@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!-- Crear una página HTML con dos botones que cambien el color del fondo de la página al pulsarlos. -->
+         <button type="submit" id="1">azul</button>
+         <button type="button" id="2">Rojo</button>
+         <script>
+           // Evento para el botón "Azul"
+             document.getElementById("1").addEventListener("click", function(event){
+                // Cambiar el color de fondo a azul
+            document.body.style.backgroundColor = "blue";
+             });
+
+            // Evento para el botón "Rojo"
+         document.getElementById("2").addEventListener("click", function(event){
+             // Cambiar el color de fondo a rojo
+                document.body.style.backgroundColor = "red";
+    });
+         </script>
+    </body>
+</html>

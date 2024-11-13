@@ -1,0 +1,17 @@
+2. Diseñar una página HTML que incluya una imagen centrada en la parte superior y un texto debajo.
+3. Crear una página HTML con tres elementos de lista que muestren nombres de equipos de fútbol, con un enlace al sitio oficial de cada equipo.
+4. Crear una página con una tabla que liste tres productos y su precio, aplicando un color de fondo diferente a las celdas de encabezado.
+5. Crear una página HTML con un formulario que contenga campos para el nombre, correo electrónico y un área de comentarios.
+6. Crear una página HTML con un título de primer nivel y dos títulos de segundo nivel con párrafos explicativos sobre temas de informática.
+7. Confeccionar una página con una tabla de tres filas y tres columnas que incluya datos de ejemplo de un horario de clases.
+8. Crear una página HTML con una imagen de fondo que ocupe toda la pantalla y un título centrado en el medio de la página.
+9. Crear una página que contenga una lista de reproducción de canciones, utilizando hipervínculos para cada canción que redirijan a un sitio de música.
+10. Crear una página HTML con un párrafo de texto, incluyendo una palabra en negrita, otra en cursiva y una palabra subrayada.
+11. Confeccionar una página HTML con un campo de búsqueda y un botón que envíe los datos a otra página para mostrar los resultados.***
+12. Crear una página que incluya un enlace de descarga a un archivo PDF, mostrando un icono junto al enlace.
+13. Crear una página HTML con dos botones que cambien el color del fondo de la página al pulsarlos.
+14. Crear una página HTML con una lista de tres pasos para instalar un programa, utilizando listas numeradas.
+15. Crear una página que contenga una tabla con nombres de películas y sus respectivos géneros y años de lanzamiento.
+16. Diseñar una página HTML que incluya un formulario con casillas de verificación para seleccionar entre varios deportes favoritos.
+17. Crear una página HTML con un menú de navegación básico con enlaces a distintas secciones de la misma página utilizando anclas.
+18. Crear una página HTML que muestre tres artículos de noticias en columnas, cada uno con su título, imagen y resumen de contenido.
