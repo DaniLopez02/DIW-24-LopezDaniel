@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       <form>
+        <fieldset>
+            <legend>Leyenda</legend>
+            <label>Nombre</label>
+                <input type="text" required>
+                <br>
+            <label>Edad</label>
+            <input type="number" min="18" max="100" required>
+            <br>
+            <label>Fecha de visita</label>
+            <input type="date">
+            <br>
+            <label>Calificacion</label>
+            <input type="range" id="calificacion" value="calification" min="1" max="10" oninput="cambiar(value)" >
+            <!-- Output -->
+             <output id="output"></output>
+            <br>
+            <label>Servicios</label><br>
+            <label>
+                <input type="checkbox" value="Restaurante">Restaurante
+            </label>
+            <label>
+                <input type="checkbox"  value="Spa">Spa
+            </label>
+            <label>
+                <input type="checkbox"  value="Piscina">Piscina
+            </label>
+            <label>
+                <input type="checkbox"  value="Gimnasio">Gimnasio
+            </label>
+            <br>
+            <label>Comentarios adicionales:</label>
+            <textarea required></textarea>
+            <br>
+            <label>Color favorito</label>
+            <input type="color"><br>
+            <label>Envirar</label>
+            <input type="submit">
+            <label>Resetear</label>
+            <input type="reset">
+        </fieldset>
+       </form>
+       <script>
+            function cambiar(valor){
+                document.getElementById("output").value = valor;
+            }
+       </script>
+    </body>
+</html>

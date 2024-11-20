@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+     
+        <form action="contacto.php" method="POST">
+            <fieldset>
+                <legend>
+                    leyenda
+                </legend>
+
+                <label>Nombre</label>
+                <input type="text" required>
+                <br>
+    
+                <label>Correo electronico</label>
+                <input type="email" required>
+                <br>
+    
+                <label>Telefono</label>
+                <input type="tel" pattern="[0-9]{9}" required>
+                <br>
+                <label>Asunto</label>
+                <select id="asunto">
+                    <option value="Consulta">Consulta</option>
+                    <option value="Sugerencia">Sugerencia</option>
+                    <option value="reclama">reclama</option>
+                </select>
+                <br>
+                <label>Mensaje</label>
+                <textarea required></textarea>
+                <br>
+                <label>Campo Oculto</label>
+                <input type="hidden" value="valor Oculto" >
+                <br>
+                <label>Enviar</label>
+                <input type="submit">
+                <label>Restablecer</label>
+                <input type="reset">
+            </fieldset>
+
+        </form>
+    </body>
+</html>

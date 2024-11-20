@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div>FORMULARIO
+            <hr>
+            <form action=".php" method="POST" enctype="multipart/form-data">
+                <label>Nombrecompleto</label>
+                <input type="text" required>
+                <br>
+                <label>Correo electronico</label>
+                <input type="email" required>
+                <br>
+                <label>Contraseña</label>
+                <input type="password" required>
+                <br>
+                <label>Fecha de nacimiento</label>
+                <input type="date" required>
+
+                <br>
+                <label>Género</label><br>
+                <label>
+                    <input type="radio" value="Femenino" name="genero" id="femenino"> Femenino
+                </label>
+                
+                <label>
+                    <input type="radio" value="Masculino" name="genero" id="masculino"> Masculino
+                </label>
+                <br>
+                
+                <label>Intereses:</label><br>
+                <label>
+                    <input type="checkbox" value="Deportes">Deportes
+                </label>
+                <label>
+                    <input type="checkbox"  value="Musica">Musica
+                </label>
+                <label>
+                    <input type="checkbox"  value="Tecnologia">Tecnologia
+                </label>
+                <br>
+
+                <label>País</label>
+                <select id="Pais">
+                    <option value="España">España</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Inglaterra">Inglaterra</option>
+                </select>
+
+
+                <br>
+                <label>Foto de perfil</label>
+                <input type="file" required>
+                <label>Boton para enviar</label>
+                <input type="submit">
+                <label>Boton de restablecer</label>
+                <input type="reset">
+            </form>
+        </div>
+    </body>
+</html>

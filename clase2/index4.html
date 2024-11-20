@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script type="text/javascript">
+            function mostrarAlerta() {
+                alert('¡Haz hecho clic en el área 3!');
+            }
+        </script>
+    </head>
+    <body>
+        <!-- Mapa con imagenes -->
+         <img src="https://placehold.co/600x400" usemap="#workmap">
+         <map name="workmap">
+            <area shape="rect" coords="0,0,100,400" alt="area1" href="https://www.youtube.com" >
+            <area shape="rect" coords="0,0,200,400" alt="area2" href="https://www.google.com">
+            <area shape="circle" coords="300,200,100" alt="area3"  onclick="mostrarAlerta()" >
+          </map>
+    </body>
+</html>
