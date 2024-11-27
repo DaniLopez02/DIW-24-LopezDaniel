@@ -1,0 +1,19 @@
+.contenedor{
+    width: 350px;
+    height: 200px;
+    border: solid grey;
+    padding: 10pt;
+}
+#img{
+    width: 2in;
+    height: 2in;
+    border-radius: 50%;
+}
+
+#nombre{
+    font-size: 24pt;
+}
+
+#descripcion{
+    font-size: 15pt;
+}

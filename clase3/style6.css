@@ -1,0 +1,12 @@
+#nav{
+    height: 10vh;
+    width: 100%;
+    font-size: 2vmin;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3,p {
+    width: 80%;
+    font-size: 2em;
+}

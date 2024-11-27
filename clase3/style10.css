@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+.section{
+    min-height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to right,#ff7e5f,hsl(240,100%,50%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#encabezado{
+    color: greenyellow;
+}
+#parrafo{
+    color: rgb(36, 216, 167);
+}

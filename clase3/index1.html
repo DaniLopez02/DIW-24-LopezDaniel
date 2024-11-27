@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HAy que modificar todo el codigo cheat</h1>
+    <div>
+        <section class="galeria" role="list">
+            <div id="img1" class="imagen-contenedor" data-imagen-id="1" data-descripcion="Descripción de la imagen 1" tabindex="0" role="listitem" aria-label="Imagen 1">
+                <img src="descarga.jpg" alt="Imagen 1" title="Imagen 1">
+            </div>
+            <div id="img2" class="imagen-contenedor" data-imagen-id="2" data-descripcion="Descripción de la imagen 2" tabindex="0" role="listitem" aria-label="Imagen 2">
+                <img src="descarga.jpg" alt="Imagen 2" title="Imagen 2">
+            </div>
+            <div id="img3" class="imagen-contenedor" data-imagen-id="3" data-descripcion="Descripción de la imagen 3" tabindex="0" role="listitem" aria-label="Imagen 3">
+                <img src="descarga.jpg" alt="Imagen 3" title="Imagen 3">
+            </div>
+            <!-- Añade más imágenes según sea necesario -->
+        </section>
+        <dialog id="dialogo-imagen">
+            <img src="" alt="">
+            <p id="descripcion-imagen"></p>
+            <button id="cerrar-dialogo">Cerrar</button>
+        </dialog>
+    </div>
+    <script>
+        // Seleccionamos todos los contenedores de imágenes
+        const contenedoresImagen = document.querySelectorAll('.imagen-contenedor');
+        const dialogo = document.getElementById('dialogo-imagen');
+        const imagenDialogo = dialogo.querySelector('img');
+        const descripcionDialogo = document.getElementById('descripcion-imagen');
+        const botonCerrar = document.getElementById('cerrar-dialogo');
+
+        // Función para abrir el diálogo con la imagen seleccionada
+        function abrirDialogo(event) {
+            const contenedor = event.currentTarget;
+            const imagen = contenedor.querySelector('img');
+            const srcImagen = imagen.src;
+            const descripcion = contenedor.dataset.descripcion;
+
+            imagenDialogo.src = srcImagen;
+            imagenDialogo.alt = imagen.alt;
+            descripcionDialogo.textContent = descripcion;
+
+            dialogo.showModal();
+        }
+
+        // Añadimos eventos a cada contenedor de imagen
+        contenedoresImagen.forEach(contenedor => {
+            contenedor.addEventListener('click', abrirDialogo);
+            contenedor.addEventListener('keypress', function(event) {
+                if (event.key === 'Enter') {
+                    abrirDialogo(event);
+                }
+            });
+        });
+
+        // Evento para cerrar el diálogo
+        botonCerrar.addEventListener('click', function() {
+            dialogo.close();
+        });
+    
+    </script>
+</body>
+</html>
+

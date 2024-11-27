@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+       function aparecer(event){
+        event.preventDefault();
+        const bt = document.getElementById("oculto");
+        bt.hidden = false;
+       }
+    </script>
+</head>
+<body>
+    <div lang="en" dir="ltr">
+        <form class="campo_formulario" onsubmit="aparecer(event)" >
+            <label >Nombre</label>
+            <input type="text" id="nombre" title="nombre"  >
+            <label>Correo</label>
+            <input type="email" id="email" title="correo">
+            <label>Mensaje</label>
+            <textarea id="mensaje" title="mensaje"></textarea>
+            <button type="submit" data-accion="contador">hola</button>
+        </form>
+        <p hidden id="oculto">Parrafo oculto</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.div{
+    border: solid  rgb(26, 193, 196 ) ;
+    background-color: hsl(285, 63%, 62%);
+    margin: auto;
+    width: 400px;
+}
+#name{
+    color: brown;
+}
+
+#content{
+    color: rgb(247, 6, 94);
+}
+#boton{
+   background-color: rgba(123, 12, 137, 0.35);
+   color: hsla(215, 22%, 8% 0.60);
+}
+
+#boton:hover{
+    background-color: white;
+    color: black;
+}

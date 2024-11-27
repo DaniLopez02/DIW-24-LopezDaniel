@@ -1,0 +1,18 @@
+* {
+    background-image: url(https://placehold.co/1200x800);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.tex{
+    color: rgba(201, 11, 80,0.6);
+    text-shadow: red;
+}

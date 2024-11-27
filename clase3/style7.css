@@ -1,0 +1,13 @@
+.galeria{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.imagen{
+    height: 200px;
+    width: 30vmax;
+    margin:1rem;
+    border: solid black;
+    background-image: url(descarga.jpg);
+    background-repeat: no-repeat;
+}
