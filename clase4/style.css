@@ -1,0 +1,24 @@
+
+body {
+    font-family: Georgia;
+    font-size: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+
+.titulo {
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.estrofa {
+    letter-spacing: 2px;
+    font-style: italic;
+    text-indent: 40px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}

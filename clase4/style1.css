@@ -1,0 +1,19 @@
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    word-spacing: 15px;
+}
+.menu {
+    text-transform: uppercase;
+    font-variant: small-caps;
+    text-align: center;
+}
+.menu-item:hover{
+    text-decoration: underline;
+}
+.menu-item:active{
+    font-weight: bolder;
+}
+
+

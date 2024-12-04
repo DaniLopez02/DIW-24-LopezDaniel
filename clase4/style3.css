@@ -1,0 +1,44 @@
+:root{
+    --color-primario:#ff7e5f;
+    --color-secundario:#f83605;
+    --color-fondo:#0ac57d;
+    --color-texto:#bb5aa6;
+}
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.tarjeta{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border: var(--color-texto) solid;
+}
+/* Seudoclases */
+
+.tarjeta:hover {
+    background-color: var(--color-fondo);
+}
+
+.boton:active{
+    background-color: var(--color-texto);
+}
+/* Seudo elementos */
+.nombre::before {
+    content: " 🙌";
+  } 
+
+.boton::after{
+    content:" ➡️";
+}
+.bio::first-letter{
+    color: var(--color-texto);
+}
+.nombre:hover{
+    text-decoration: underline;
+}
+.bio:hover{
+    text-decoration: underline;
+}

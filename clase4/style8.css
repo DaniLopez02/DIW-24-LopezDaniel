@@ -1,0 +1,26 @@
+.content{
+    height: 600px;
+    width: 200px;
+    border: 2px solid black;
+    display: grid;
+    text-align: center;
+}
+.content_div-relleno{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 0.7pc;
+}
+.content_div-nb{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+    
+}
+.content_div-s{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: underline;
+}
+

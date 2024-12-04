@@ -1,0 +1,29 @@
+:root{
+    --color-primario:#ff7e5f;
+    --color-secundario:#f83605;
+    --color-fondo:#0ac57d;
+    --color-texto:#bb5aa6;
+    --precio-inicial:12;
+    --precio-final:20;
+}
+
+li:nth-child(even){
+    color: var(--color-fondo);
+}
+li:nth-child(odd){
+    color: var(--color-texto);
+}
+li:hover{
+   text-shadow: coral 2px 2px;
+}
+.nuevo::before{
+    content: "EL PRODUCTO ES NUEVO: ";
+}
+.agotado::after{
+    content: " EL PRODUCTO ESTA AGOTADO";
+}
+.descripcion::first-line{
+    text-shadow: var(--color-texto) 1px 1px;
+}
+
+

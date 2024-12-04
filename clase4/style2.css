@@ -1,0 +1,28 @@
+.titulo{
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.subtitulo{
+    font-family: verdana;
+    font-size: 24px;
+    font-style: oblique;
+}
+.parrafo{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.cita{
+    font-style: italic;
+    padding-left: 20px;
+    border-left: 3px solid grey;
+}
+.enlace{
+    color: blue;
+    text-decoration: none;
+}
+.enlace:hover{
+    text-decoration: underline;
+}

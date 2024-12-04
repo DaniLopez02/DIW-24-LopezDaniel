@@ -1,0 +1,20 @@
+:root{
+    --color-primario:#ff7e5f;
+    --color-secundario:#f83605;
+    --color-fondo:#0ac57d;
+    --color-texto:#bb5aa6;
+}
+
+input:focus{
+    border: 10px solid var(--color-secundario);
+}
+
+input:invalid{
+    border-color: #f83605;
+}
+form:valid{
+    border: 2px solid greenyellow;
+}
+p::placeholder{
+    
+}
