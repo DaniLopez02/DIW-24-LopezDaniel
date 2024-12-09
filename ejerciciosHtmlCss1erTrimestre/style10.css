@@ -1,0 +1,34 @@
+body {
+  margin: 0px;
+}
+header {
+  text-align: center;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  height: 100px;
+  background-color: turquoise;
+}
+
+.header_title {
+  margin: 0px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  background-color: antiquewhite;
+}
+a {
+  margin: 20px;
+}
+main {
+  margin: 10px;
+}
+a:hover {
+  color: brown;
+}

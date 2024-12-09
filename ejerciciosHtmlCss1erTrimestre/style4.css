@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  text-align: left;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.form_input {
+  margin-bottom: 10px;
+}
+
+.form_input:focus {
+  border: 5px solid blue;
+}
+.form_input:invalid {
+  border: 3px solid red;
+}
+.form_input:valid {
+  border: 3px solid green;
+}

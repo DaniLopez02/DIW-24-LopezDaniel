@@ -1,0 +1,10 @@
+:root {
+  --color-claro: #ffffff;
+  --color-oscuro: #000000;
+}
+
+body {
+  background-color: var(--color-claro);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}

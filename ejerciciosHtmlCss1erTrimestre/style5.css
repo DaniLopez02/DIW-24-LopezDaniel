@@ -1,0 +1,29 @@
+:root {
+  --color-primero: #8c1a96;
+  --color-segundo: #597809;
+  --tamanio-primero: 25px;
+  --fuente-titulo: "Verdana", sans-serif;
+  --espacio-tarjeta: 20px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div {
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid black;
+}
+.div_tarjeta {
+  font-family: var(--fuente-titulo);
+  border: 3px solid greenyellow;
+  padding-left: var(--espacio-tarjeta);
+  padding-right: var(--espacio-tarjeta);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 30px;
+  margin: 30px;
+  display: flex;
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+}
+main {
+  text-align: left;
+}
+h1 {
+  font-size: 5ch;
+}
+h2 {
+  font-size: 3ch;
+}
+section {
+  padding: 15px;
+  margin: 15px;
+  background-color: aqua;
+}
+section:last-of-type {
+  background-color: blanchedalmond;
+}

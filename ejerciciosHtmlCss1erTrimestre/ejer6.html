@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cambio de Tema</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style6.css">
+</head>
+
+<body>
+    <h2>Texto de cambio de tema</h2>
+    <button class="boton" id="boton">Botón Cambio de Color</button>
+
+    <script>
+        const boton = document.getElementById("boton");
+        boton.addEventListener("click", () => {
+            const root = document.documentElement;
+            // Cambiar los valores de las variables CSS
+            root.style.setProperty("--color-claro", "#53dbe8");
+            root.style.setProperty("--color-oscuro", "#3c4040");
+        });
+    </script>
+</body>
+
+</html>
