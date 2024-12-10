@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Completo de Tabla con Rowspan</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tfoot td {
+            font-weight: bold;
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <!-- Elemento caption -->
+        <caption>Ejemplo Completo de Tabla con Rowspan</caption>
+
+        <!-- Elemento colgroup para definir estilos de columnas -->
+        <colgroup>
+            <col style="background-color: #f9f9f9;"> <!-- Columna 1 -->
+            <col style="background-color: #e9f7ef;"> <!-- Columna 2 -->
+            <col style="background-color: #fce4ec;"> <!-- Columna 3 -->
+        </colgroup>
+
+        <!-- Encabezado de la tabla -->
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+
+        <!-- Cuerpo de la tabla -->
+        <tbody>
+            <tr>
+                <!-- Uso de rowspan para combinar las celdas de "Frutas" -->
+                <td rowspan="3">Frutas</td>
+                <td>Manzanas</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Naranjas</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Plátanos</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Bebidas</td>
+                <td>Jugo de Naranja</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+
+        <!-- Pie de la tabla -->
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td colspan="2">$6.70</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
