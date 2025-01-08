@@ -1,0 +1,9 @@
+.contenedor{
+   position: absolute;
+   
+}
+.contenido{
+    margin: 10px;
+    float: left;
+    clear: right;
+}

@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+.nav{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px;
+}
+.enlace:hover{
+    color: brown;
+}

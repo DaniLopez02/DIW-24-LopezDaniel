@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: cadetblue;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.contenido{
+    margin: 10px;
+    background-color: aqua;
+}
+.menu{
+    border: 1px solid black;
+    padding: 20px;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    left: 90%;
+    z-index: 2;
+}
+.boton{
+    margin: 20px;
+    position: relative;
+    float: right;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

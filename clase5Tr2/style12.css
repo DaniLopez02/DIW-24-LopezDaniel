@@ -1,0 +1,6 @@
+.contenido{
+    background-color: aquamarine;
+    height: 400px;
+    width: 50%;
+    overflow: scroll;
+}

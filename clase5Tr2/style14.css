@@ -1,0 +1,12 @@
+.contenedor{
+    display: grid;
+    grid-template-columns:repeat(3,150px);
+    gap: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.contenido{
+    background-color: aqua;
+    border: 1px solid black;
+}

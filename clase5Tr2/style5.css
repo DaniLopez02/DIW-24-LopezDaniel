@@ -1,0 +1,14 @@
+.contendor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: px;
+}
+.imagen{
+    margin: 2px;
+}
+img:hover{
+    transition: 0.3;
+    width: 110%;
+}

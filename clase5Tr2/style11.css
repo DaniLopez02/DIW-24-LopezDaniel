@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.contenido{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+    align-items: center;
+}
+.contenedor{
+    height: 20px;
+    width: 80px;
+    background-color: blue;
+}
+.contenedor2{
+    height: 20px;
+    width: 80px;
+    background-color: rgb(185, 185, 204);
+}
+.contenedor3{
+    height: 20px;
+    width: 80px;
+    background-color: rgb(198, 37, 99);
+}

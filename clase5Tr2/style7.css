@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.contenedor{
+    height: 100vh;
+    background-color: aqua;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenido{
+    background-color: bisque;
+    text-align: center;
+    flex-grow: 1;
+}
+.contenido:nth-of-type(2){
+    background-color: chocolate;
+    flex-grow: 2;
+}
+h1{
+    margin: 0;
+    background-color: rgb(180, 104, 11);
+    text-align: center;
+}
