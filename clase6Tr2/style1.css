@@ -1,0 +1,36 @@
+.contenedor{
+    border: 1px solid black;
+    width: 500px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "celda1 celda1 celda1" 
+    "celda2 celda3 celda4"
+    "celda2 celda5 celda6";
+}
+.celda1{
+    border: 2px solid black;
+    grid-area: celda1;
+}
+.celda2{
+    border: 2px solid black;
+    grid-area: celda2;
+}
+.celda3{
+    border: 2px solid black;
+    grid-area: celda3;
+}
+.celda4{
+    border: 2px solid black;
+    grid-area: celda4;
+}
+.celda5{
+    border: 2px solid black;
+    grid-area: celda5;
+}
+.celda6{
+    border: 2px solid black;
+    grid-area: celda6;
+}

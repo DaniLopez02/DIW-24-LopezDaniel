@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        .contenedor {
+            border: 1px solid black;
+            width: 500px;
+            gap: 1px;
+            display: grid;
+            text-align: center;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas:
+                "celda1 celda2"
+                "celda3 celda4"
+                "celda5 celda4"
+            ;
+        }
+
+        .celda1 {
+            border: 2px solid black;
+            grid-area: celda1;
+        }
+
+        .celda2 {
+            border: 2px solid black;
+            grid-area: celda2;
+        }
+
+        .celda3 {
+            border: 2px solid black;
+            grid-area: celda3;
+        }
+
+        .celda4 {
+            border: 2px solid black;
+            grid-area: celda4;
+        }
+
+        .celda5 {
+            border: 2px solid black;
+            grid-area: celda5;
+        }
+        .listas {
+            border: 1px solid black;
+            gap: 1px;
+            display: grid;
+            text-align: center;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas:
+                "lista1 lista1"
+                "lista2 lista3"
+                "lista4 lista5"
+            ;
+        }
+        .lista1 {
+            
+            grid-area: lista1;
+        }
+        .lista2 {
+           
+            grid-area: lista2;
+        }
+        .lista3 {
+            
+            grid-area: lista3;
+        }
+        .lista4 {
+           
+            grid-area: lista4;
+        }
+        .lista5 {
+           
+            grid-area: lista5;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Grid area</h1>
+    <div class="contenedor">
+        <div class="celda1">celda1</div>
+        <div class="celda2">celda2</div>
+        <div class="celda3">celda3</div>
+        <div class="celda4">
+            <div class="listas">
+                <div class="lista1">Grid Anidado</div>
+                <div class="lista2">lista2</div>
+                <div class="lista3">lista3</div>
+                <div class="lista4">lista4</div>
+                <div class="lista5">lista5</div>
+            </div>
+        </div>
+        <div class="celda5">celda5</div>
+    </div>
+</body>
+
+</html>

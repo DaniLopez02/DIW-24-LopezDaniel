@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        .contenedor {
+            border: 1px solid black;
+            width: 500px;
+            gap: 1px;
+            display: grid;
+            text-align: center;
+            grid-template-columns:1fr 2fr;
+            grid-template-rows: 1fr 2fr 1fr;
+            grid-template-areas:
+                "none celda1"
+                "celda2 celda3"
+                "celda4 celda4";
+        }
+
+        .celda1 {
+            border: 2px solid black;
+            grid-area: celda1;
+        }
+
+        .celda2 {
+            border: 2px solid black;
+            grid-area: celda2;
+        }
+
+        .celda3 {
+            border: 2px solid black;
+            grid-area: celda3;
+        }
+
+        .celda4 {
+            border: 2px solid black;
+            grid-area: celda4;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grid area</h1>
+    <div class="contenedor">
+        <div class="celda1">celda1</div>
+        <div class="celda2">celda2</div>
+        <div class="celda3">celda3</div>
+        <div class="celda4">celda4</div>
+   
+    </div>
+</body>
+
+</html>
